@@ -1,0 +1,22 @@
+name: android_platform_tools_installer_ui
+description: An embeddable UI to install the Android SDK Command-Line Tools and Platform Tools.
+version: 0.1.0
+homepage: https://github.com/hacker1024/gibadb
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  args: ^2.3.0
+  path: ^1.8.0
+  progressbar2: ^0.3.1
+  adb_tools:
+    git:
+      url: 'git://github.com/hacker1024/adb_tools.dart.git'
+      ref: '47e3752f4013c8d5369aba0af7d17f7db03f3cc8'
+
+dev_dependencies:
+  lint: ^1.7.2
+
+executables:
+  gibadb:
