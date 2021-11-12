@@ -37,7 +37,8 @@ The following external tools are required:
 
 1. Open a terminal (or command prompt)
 2. Run `gibadb`
-3. Add the required lines to your PATH
+3. Accept any required licenses
+4. Add the required lines to your PATH
 
 ### Options
 
