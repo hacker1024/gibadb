@@ -12,7 +12,7 @@ dependencies:
   progressbar2: ^0.3.1
   adb_tools:
     git:
-      url: 'git://github.com/hacker1024/adb_tools.dart.git'
+      url: 'https://github.com/hacker1024/adb_tools.dart.git'
       ref: '47e3752f4013c8d5369aba0af7d17f7db03f3cc8'
 
 dev_dependencies:
